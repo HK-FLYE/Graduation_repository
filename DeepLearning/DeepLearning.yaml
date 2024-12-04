@@ -1,0 +1,22 @@
+name: TransferLearning
+channels:
+  - https://mirrors.bfsu.edu.cn/anaconda/pkgs/main
+  - conda-forge
+  - https://mirrors.bfsu.edu.cn/anaconda/pkgs/main/
+  - https://mirrors.bfsu.edu.cn/anaconda/pkgs/free/
+  - defaults
+dependencies:
+  - python=3.8.18
+  - pip
+  - pytorch=2.4
+  - Numpy=1.21.5
+  - Pandas=1.5.3
+  - tqdm=4.46.1
+  - Scipy
+  - jupyter
+  - notebook
+  - scikit-learn
+  - seaborn
+  - tensorflow
+  - pip:
+    - bayesian-torch
